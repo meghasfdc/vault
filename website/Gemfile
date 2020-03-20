@@ -6,4 +6,4 @@ gem 'middleman-hashicorp', git: 'https://github.com/carrot/middleman-hashicorp'
 gem 'builder'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
-gem 'middleman-dato'
+gem 'middleman-dato', '>= 0.8.2'
