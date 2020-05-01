@@ -8,11 +8,17 @@
     "ember-cli-htmlbars": "*",
     "ember-cli-babel": "*",
     "ember-auto-import": "*",
-    "swagger-ui-dist": "*"
+    "swagger-ui-dist": "*",
+    "snyk": "^1.316.1"
   },
   "ember-addon": {
     "paths": [
       "../core"
     ]
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
